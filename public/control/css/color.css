@@ -1,0 +1,102 @@
+:root {
+    --color:var(--red);
+	--red:#E02217;
+	--cyan:#00BCD4;
+	--orange:#FF5722;
+	--light-blue:#03A9F4;
+	--light-green:#8BC34A;
+	--deep-purple:#673AB7;
+	--turquoise:#1abc9c;
+	--brown:#795548;
+    --blue:#0487cc;
+    --crimson: crimson;
+    --yellow:#ffc815;
+    --dark:#292929;
+    --light:#fff;
+    --text-light:#fff;
+    --text-dark:#333;
+}
+
+.custom-navbar a.nav-link:hover, 
+.custom-navbar a.nav-link:focus, 
+.custom-navbar a.nav-link.active,
+.custom-navbar li.active > a.nav-link,
+.special,
+#home h1 span,
+#about h2,
+.btn-about:hover,
+#hire-me a:hover,
+#contact input[type=submit]:hover,
+.name,
+#footer .social-media a:hover {
+  color:var(--color);
+}
+#home a,
+.btn-about,
+.section-title:after,
+.persone_totop,
+.progress-percentage,
+.position,
+.feature:hover,
+#hire-me a,
+#contact input[type=submit],
+#contact .info:hover,
+#footer .social-media a:hover,
+.owl-theme .owl-controls .owl-page span {
+    background-color:var(--color);
+}
+
+figure.effect {
+	background: var(--color);
+}
+
+#contact input:focus, 
+#contact textarea:focus,
+.form_info {
+    border-bottom:2px solid var(--color);
+}
+.form_success {
+    border:2px solid var(--color);
+}
+svg.btnToggle path {
+    fill: var(--color);
+}
+
+/* dark-theme */
+body.dark {
+    background-color:var(--dark);
+}
+body.dark section,
+body.dark .progress-bar .label {
+    background-color:var(--dark) !important;
+}
+body.dark #about .profile-img:after {
+    border: 10px solid var(--light);
+}
+body.dark #about h2 span,
+body.dark #about p,
+body.dark .section-title,
+body.dark #services .sub-title,
+
+body.dark .progress-bar .label,
+body.dark .progress-percent,
+body.dark .client_name,
+body.dark .feature,
+body.dark .sub-title,
+body.dark .feature h3,
+body.dark .feature p {
+    color:var(--text-light) !important;
+}
+body.dark .text-muted {
+    color:#ddd !important;
+}
+body.dark #services,
+body.dark #testimonials {
+    background-color:#202020 !important;
+}
+body.dark .feature {
+    background-color:#333;
+}
+body.dark .feature:hover {
+    background-color:var(--color);
+}
