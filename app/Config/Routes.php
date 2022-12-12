@@ -42,10 +42,9 @@ $routes->get('/panel-admin', 'Admin::index', ['filter' => 'authentification']);
 // --------------------------------------------------------------------
 // Authentification Routing
 // --------------------------------------------------------------------
-$routes->get('/authentification', 'authentification::index');
-$routes->get('/authentification', 'authentification::index');
-$routes->post('/auth-process', 'authentification::auth');
-$routes->get('/logout', 'authentification::logout');
+$routes->get('/authentification', 'Authentification::index');
+$routes->post('/auth-process', 'Authentification::auth');
+$routes->get('/logout', 'Authentification::logout');
 // --------------------------------------------------------------------
 // Settings Routing
 // --------------------------------------------------------------------
