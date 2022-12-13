@@ -12,11 +12,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-
--- Dumping database structure for azizcv_db
-CREATE DATABASE IF NOT EXISTS `azizcv_db` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `azizcv_db`;
-
 -- Dumping structure for table azizcv_db.main_skills
 CREATE TABLE IF NOT EXISTS `main_skills` (
   `id` int(20) NOT NULL AUTO_INCREMENT,
@@ -92,8 +87,7 @@ INSERT INTO `portfolio` (`id`, `image`, `name`, `description`, `link`, `ord`, `c
 	(3, 'uploads/portfolio/einhomestuff.jpeg', 'EINHOME STUFF', 'Online Store and Application', 'https://www.einhomestuff.com/', 3, '2022-12-08 19:29:35', '2022-12-08 19:29:35'),
 	(4, 'uploads/portfolio/andinasyari.jpeg', 'ANDINA SYARI', 'Online Store and Application', 'https://andinasyari.com/', 4, '2022-12-08 19:29:35', '2022-12-08 19:29:35'),
 	(5, 'uploads/portfolio/mayudolan.jpeg', 'MAYU DOLAN', 'Website Tour and travel', 'https://mayudolan.com/', 5, '2022-12-08 19:29:35', '2022-12-08 19:29:35'),
-	(6, 'uploads/portfolio/optima.jpeg', 'OP TIMA', 'online service', 'https://optima.purbalinggakab.go.id/', 6, '2022-12-08 19:29:35', '2022-12-08 19:29:35'),
-	(7, 'uploads/portfolio/1670669578_6a1cc4da220dd94a9f69.jpg', 'coba ganti 2', 'coba deskripsi', 'https://optima.purbalinggakab.go.id/', 7, '2022-12-10 15:58:25', '2022-12-10 18:34:54');
+	(6, 'uploads/portfolio/optima.jpeg', 'OP TIMA', 'online service', 'https://optima.purbalinggakab.go.id/', 6, '2022-12-08 19:29:35', '2022-12-08 19:29:35');
 /*!40000 ALTER TABLE `portfolio` ENABLE KEYS */;
 
 -- Dumping structure for table azizcv_db.services
