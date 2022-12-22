@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6674f4d33d752c6055339da62d5d3712
+class ComposerStaticInitc2df2abcca0d2a3035fae3bd9d37a606
 {
     public static $files = array (
         '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
@@ -31,10 +31,6 @@ class ComposerStaticInit6674f4d33d752c6055339da62d5d3712
         'K' => 
         array (
             'Kint\\' => 5,
-        ),
-        'H' => 
-        array (
-            'Hermawan\\DataTables\\' => 20,
         ),
         'F' => 
         array (
@@ -76,10 +72,6 @@ class ComposerStaticInit6674f4d33d752c6055339da62d5d3712
         array (
             0 => __DIR__ . '/..' . '/kint-php/kint/src',
         ),
-        'Hermawan\\DataTables\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hermawan/codeigniter4-datatables/src',
-        ),
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
@@ -104,13 +96,6 @@ class ComposerStaticInit6674f4d33d752c6055339da62d5d3712
             'org\\bovigo\\vfs\\' => 
             array (
                 0 => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php',
-            ),
-        ),
-        'P' => 
-        array (
-            'PHPSQLParser\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/greenlion/php-sql-parser/src',
             ),
         ),
     );
@@ -748,10 +733,10 @@ class ComposerStaticInit6674f4d33d752c6055339da62d5d3712
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6674f4d33d752c6055339da62d5d3712::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6674f4d33d752c6055339da62d5d3712::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6674f4d33d752c6055339da62d5d3712::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6674f4d33d752c6055339da62d5d3712::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc2df2abcca0d2a3035fae3bd9d37a606::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc2df2abcca0d2a3035fae3bd9d37a606::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitc2df2abcca0d2a3035fae3bd9d37a606::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitc2df2abcca0d2a3035fae3bd9d37a606::$classMap;
 
         }, null, ClassLoader::class);
     }

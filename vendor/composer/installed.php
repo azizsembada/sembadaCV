@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeigniter4/appstarter',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'b5b9b4c6de3a56aa6577354dfb31087581a24cf7',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ac3a08fd5f08ec3c428f6f9d9184afbd4667c81e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'b5b9b4c6de3a56aa6577354dfb31087581a24cf7',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ac3a08fd5f08ec3c428f6f9d9184afbd4667c81e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -45,24 +45,6 @@
             'install_path' => __DIR__ . '/../fakerphp/faker',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'greenlion/php-sql-parser' => array(
-            'pretty_version' => 'v4.5.0',
-            'version' => '4.5.0.0',
-            'reference' => 'a5d5c292d97271c95140192e6f0e962916e39b50',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../greenlion/php-sql-parser',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'hermawan/codeigniter4-datatables' => array(
-            'pretty_version' => 'v0.6.1',
-            'version' => '0.6.1.0',
-            'reference' => 'b3ffc89d449520ce6e0c41a69c8a949302b8dd1a',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../hermawan/codeigniter4-datatables',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'kint-php/kint' => array(
             'pretty_version' => '4.2.3',
